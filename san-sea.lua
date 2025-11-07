@@ -5,7 +5,7 @@ local uis = game:GetService("UserInputService")
 local runService = game:GetService("RunService")
 
 local scriptEnabled = true
-local speed = 335
+local speed = 320
 local moving = false
 
 local screenGui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
