@@ -5,7 +5,7 @@ local uis = game:GetService("UserInputService")
 local runService = game:GetService("RunService")
 
 local scriptEnabled = true
-local speed = 115
+local speed = 250
 local moving = false
 
 local screenGui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
@@ -48,7 +48,7 @@ local function applyScriptState()
         end
 
         local bp = Instance.new("BodyPosition")
-        bp.Position = Vector3.new(hrp.Position.X, hrp.Position.Y + 200, hrp.Position.Z)
+        bp.Position = Vector3.new(hrp.Position.X, hrp.Position.Y + 150, hrp.Position.Z)
         bp.MaxForce = Vector3.new(0, math.huge, 0)
         bp.P = 1250
         bp.Name = "FloatMode"
