@@ -48,7 +48,7 @@ local function applyScriptState()
         end
 
         local bp = Instance.new("BodyPosition")
-        bp.Position = Vector3.new(hrp.Position.X, hrp.Position.Y + 270, hrp.Position.Z)
+        bp.Position = Vector3.new(hrp.Position.X, hrp.Position.Y + 200, hrp.Position.Z)
         bp.MaxForce = Vector3.new(0, math.huge, 0)
         bp.P = 1250
         bp.Name = "FloatMode"
